@@ -1,0 +1,53 @@
+.serachbox{
+        width: 100vw;
+        height: 100vh;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(231, 231, 231);
+        position: fixed;
+}
+
+.serachbox > input[type="text"]{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.274);
+    background-color: white;
+    border: none;
+    padding: 1vmax 2vmax;
+    width: 50%;
+    outline: none;
+    border-radius: 0%;
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    -o-border-radius: 0%;
+    font:300 1.1vmax cursive;
+    box-sizing: border-box;
+    height: 8%;
+}
+
+.serachbox >input[type="submit"]{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.274);
+    background-color: tomato;
+    border: none;
+    padding: 1vmax 2vmax;
+    width: 10%;
+    outline: none;
+    border-radius: 0%;
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    -o-border-radius: 0%;
+    font:300 1.1vmax cursive;
+    box-sizing: border-box;
+    height: 8%;
+    transition: all 0.5S;
+    -webkit-transition: all 0.5S;
+    -moz-transition: all 0.5S;
+    -ms-transition: all 0.5S;
+    -o-transition: all 0.5S;
+}
+
+.serachbox >input[type="submit"] :hover{
+    background-color: rgb(55, 97, 214);
+}

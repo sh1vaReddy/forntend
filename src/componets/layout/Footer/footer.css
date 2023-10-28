@@ -1,0 +1,26 @@
+.footer{
+    margin-top: 10vmax;
+    padding: 2vmax;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.left-footer{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-footer>img{
+    width: 10vmax;
+    margin: 1vmax;
+    cursor: pointer;
+}
+
+.mid-footer{
+    width: 60%;
+  text-align: center;
+
+}

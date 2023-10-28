@@ -1,0 +1,15 @@
+.lds-roller{
+    width: 100vm;
+    height: 100vh;
+    background-color: white;
+    display: grid;
+    place-items: center;
+}
+
+.lds-roller > div{
+    width: 10vmax;
+    height: 10vmax;
+    border-bottom: 5px solid rgb(110,110, 110);
+
+
+}

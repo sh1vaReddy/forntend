@@ -1,0 +1,74 @@
+.ConfirmOrderpage {
+    padding: 20px;
+  }
+  
+  .confirmshippingArea {
+    display: flex;
+    justify-content: flex-start; /* Change to 'flex-start' to move to the left */
+    margin-bottom: 10px; /* You can adjust the margin as needed */
+  }
+  
+/* Add this CSS to your ConfirmOrder.css */
+.confirmshippingAreaBox {
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 400px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the box horizontally */
+  
+    /* Optional: Add a background color, border radius, and box shadow */
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .confirmshippingAreaBox p {
+    margin: 5px 0;
+    font-weight: bold;
+  }
+  
+  .confirmshippingAreaBox div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .confirmshippingAreaBox span {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .confirmcartcontainer {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .confirmcartcontainer a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .confirmcartcontainer div {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .Ordersummary p {
+    margin: 5px 0;
+  }
+  
+  button {  
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  

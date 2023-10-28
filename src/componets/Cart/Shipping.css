@@ -1,0 +1,80 @@
+.ShippingContainer
+{
+    width: 100vw;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ShippingHeading
+{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.646);
+    border-bottom:1px solid rgba(0, 0, 0, 0.205);
+    font:400 1.3vmax "Roboto";
+    width: 50%;
+    margin: auto;
+
+}
+
+.ShippingForm
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 2vmax;
+    justify-content: space-evenly;
+    height: 80%;
+    transition: all 0.5s;
+
+}
+
+
+.ShippingForm > div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+
+
+  .ShippingForm> div > input,
+.ShippingForm> div > select {
+  padding: 1vmax 4vmax;
+  padding-right: 1vmax;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 4px;
+  font: 300 0.9vmax cursive;
+  outline: none;
+}
+
+
+.ShippingForm > div > svg {
+    position: absolute;
+    transform: translateX(1vmax);
+    font-size: 1.6vmax;
+    color: rgba(0, 0, 0, 0.623);
+  }
+
+
+  .shippingBtn {
+    border: none;
+    background-color: tomato;
+    color: white;
+    font: 300 1vmax "Roboto";
+    width: 100%;
+    padding: 1vmax;
+    cursor: pointer;
+    transition: all 0.5s;
+    outline: none;
+    margin: 2vmax;
+   
+  }
+
+  .shippingBtn:hover {
+    background-color: rgb(179, 66, 46);
+  }
